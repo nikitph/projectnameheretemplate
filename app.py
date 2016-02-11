@@ -4,7 +4,7 @@ from flask import Flask, render_template
 from settings import ProdConfig
 from flask.ext.security import Security, MongoEngineUserDatastore
 from user.models import User, Role
-from admin.views import UserView, RoleView, ThoughtView, DcheckView
+from admin.views import UserView, RoleView
 from user.forms import ExtendedRegisterForm
 from extensions import (
     cache,
