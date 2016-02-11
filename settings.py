@@ -15,7 +15,7 @@ class Config(object):
     ENFERNO_ENV = 'prod'
     MONGODB_SETTINGS = {
         'db': 'heroku_qs9p8wh7',
-        'host': 'mongodb://heroku_qs9p8wh7:lphijj48j811hr8hd10qkaffic@ds049925.mongolab.com:49925/heroku_qs9p8wh7'
+        'host': 'mongod uri here'
     }
 
     #security
@@ -35,7 +35,7 @@ class Config(object):
     MAIL_PORT = 465
     MAIL_USE_SSL = True
     MAIL_USERNAME = 'postmaster@sandbox915ad276f504436e85698563f521a724.mailgun.org'
-    MAIL_PASSWORD = '82c13eb2fc037241f55e00921b1fb30f'
+    MAIL_PASSWORD = 'mg pwd'
     SECURITY_EMAIL_SENDER = 'info@nikitph.com'
 
 
